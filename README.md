@@ -2,7 +2,7 @@
 just testing github
 import requests
 
-def get_btc_price():
+def get_bt_price():
     url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json"
     response = requests.get(url)
     if response.status_code == 200:
